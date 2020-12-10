@@ -1,0 +1,315 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{0E7F9551-DF32-481F-A2C8-4EC4A40045FB}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Emlak_Otomasyon</RootNamespace>
+    <AssemblyName>Emlak_Otomasyon</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevExpress.Data.v19.2, Version=19.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Mvvm.v19.2, Version=19.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Printing.v19.2.Core, Version=19.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Sparkline.v19.2.Core, Version=19.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Utils.v19.2, Version=19.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraBars.v19.2, Version=19.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraEditors.v19.2, Version=19.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="XanderUI">
+      <HintPath>..\..\..\..\Desktop\Desktop Applications\9-HASTANE OTOMASYONU\Materyaller\XanderUI.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AslanbayGayrimenkulDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AslanbayGayrimenkulDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="AslanbayGayrimenkulDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AslanbayGayrimenkulDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="AslanbayGayrimenkulDataSet2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AslanbayGayrimenkulDataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="AslanbayGayrimenkulDataSet3.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AslanbayGayrimenkulDataSet3.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="AslanbayGayrimenkulDataSet4.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AslanbayGayrimenkulDataSet4.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="AslanbayGayrimenkulDataSet5.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AslanbayGayrimenkulDataSet5.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="AslanbayGayrimenkulDataSet6.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AslanbayGayrimenkulDataSet6.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="AslanbayGayrimenkulDataSet7.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AslanbayGayrimenkulDataSet7.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="AslanbayGayrimenkulDataSet8.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AslanbayGayrimenkulDataSet8.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="BaglantiSinif.cs" />
+    <Compile Include="Deneme.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Deneme.Designer.cs">
+      <DependentUpon>Deneme.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmAnaSayfa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmAnaSayfa.Designer.cs">
+      <DependentUpon>FrmAnaSayfa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmArsiv.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmArsiv.Designer.cs">
+      <DependentUpon>FrmArsiv.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmGiris.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmGiris.Designer.cs">
+      <DependentUpon>FrmGiris.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmOdemeler.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmOdemeler.Designer.cs">
+      <DependentUpon>FrmOdemeler.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmSiteEkle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmSiteEkle.Designer.cs">
+      <DependentUpon>FrmSiteEkle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmYonetim.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmYonetim.Designer.cs">
+      <DependentUpon>FrmYonetim.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GayrimenkulGuncelle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GayrimenkulGuncelle.Designer.cs">
+      <DependentUpon>GayrimenkulGuncelle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GayrimenkulKayit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GayrimenkulKayit.Designer.cs">
+      <DependentUpon>GayrimenkulKayit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Deneme.resx">
+      <DependentUpon>Deneme.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmAnaSayfa.resx">
+      <DependentUpon>FrmAnaSayfa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmArsiv.resx">
+      <DependentUpon>FrmArsiv.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmGiris.resx">
+      <DependentUpon>FrmGiris.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmOdemeler.resx">
+      <DependentUpon>FrmOdemeler.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmSiteEkle.resx">
+      <DependentUpon>FrmSiteEkle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmYonetim.resx">
+      <DependentUpon>FrmYonetim.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GayrimenkulGuncelle.resx">
+      <DependentUpon>GayrimenkulGuncelle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GayrimenkulKayit.resx">
+      <DependentUpon>GayrimenkulKayit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="AslanbayGayrimenkulDataSet.xsc">
+      <DependentUpon>AslanbayGayrimenkulDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="AslanbayGayrimenkulDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>AslanbayGayrimenkulDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="AslanbayGayrimenkulDataSet.xss">
+      <DependentUpon>AslanbayGayrimenkulDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="AslanbayGayrimenkulDataSet1.xsc">
+      <DependentUpon>AslanbayGayrimenkulDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="AslanbayGayrimenkulDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>AslanbayGayrimenkulDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="AslanbayGayrimenkulDataSet1.xss">
+      <DependentUpon>AslanbayGayrimenkulDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="AslanbayGayrimenkulDataSet2.xsc">
+      <DependentUpon>AslanbayGayrimenkulDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="AslanbayGayrimenkulDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>AslanbayGayrimenkulDataSet2.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="AslanbayGayrimenkulDataSet2.xss">
+      <DependentUpon>AslanbayGayrimenkulDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="AslanbayGayrimenkulDataSet3.xsc">
+      <DependentUpon>AslanbayGayrimenkulDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="AslanbayGayrimenkulDataSet3.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>AslanbayGayrimenkulDataSet3.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="AslanbayGayrimenkulDataSet3.xss">
+      <DependentUpon>AslanbayGayrimenkulDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="AslanbayGayrimenkulDataSet4.xsc">
+      <DependentUpon>AslanbayGayrimenkulDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="AslanbayGayrimenkulDataSet4.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>AslanbayGayrimenkulDataSet4.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="AslanbayGayrimenkulDataSet4.xss">
+      <DependentUpon>AslanbayGayrimenkulDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="AslanbayGayrimenkulDataSet5.xsc">
+      <DependentUpon>AslanbayGayrimenkulDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="AslanbayGayrimenkulDataSet5.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>AslanbayGayrimenkulDataSet5.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="AslanbayGayrimenkulDataSet5.xss">
+      <DependentUpon>AslanbayGayrimenkulDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="AslanbayGayrimenkulDataSet6.xsc">
+      <DependentUpon>AslanbayGayrimenkulDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="AslanbayGayrimenkulDataSet6.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>AslanbayGayrimenkulDataSet6.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="AslanbayGayrimenkulDataSet6.xss">
+      <DependentUpon>AslanbayGayrimenkulDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="AslanbayGayrimenkulDataSet7.xsc">
+      <DependentUpon>AslanbayGayrimenkulDataSet7.xsd</DependentUpon>
+    </None>
+    <None Include="AslanbayGayrimenkulDataSet7.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>AslanbayGayrimenkulDataSet7.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="AslanbayGayrimenkulDataSet7.xss">
+      <DependentUpon>AslanbayGayrimenkulDataSet7.xsd</DependentUpon>
+    </None>
+    <None Include="AslanbayGayrimenkulDataSet8.xsc">
+      <DependentUpon>AslanbayGayrimenkulDataSet8.xsd</DependentUpon>
+    </None>
+    <None Include="AslanbayGayrimenkulDataSet8.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>AslanbayGayrimenkulDataSet8.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="AslanbayGayrimenkulDataSet8.xss">
+      <DependentUpon>AslanbayGayrimenkulDataSet8.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

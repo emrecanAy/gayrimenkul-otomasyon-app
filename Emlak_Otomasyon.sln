@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30406.217
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Emlak_Otomasyon", "Emlak_Otomasyon\Emlak_Otomasyon.csproj", "{0E7F9551-DF32-481F-A2C8-4EC4A40045FB}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "AslanbayEmlakV1", "AslanbayEmlakV1\AslanbayEmlakV1.vdproj", "{7B58A656-00A6-4828-8FE9-7A4A10FC7382}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0E7F9551-DF32-481F-A2C8-4EC4A40045FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E7F9551-DF32-481F-A2C8-4EC4A40045FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E7F9551-DF32-481F-A2C8-4EC4A40045FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E7F9551-DF32-481F-A2C8-4EC4A40045FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B58A656-00A6-4828-8FE9-7A4A10FC7382}.Debug|Any CPU.ActiveCfg = Debug
+		{7B58A656-00A6-4828-8FE9-7A4A10FC7382}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D4594DB3-AE2E-42D2-9021-3E002DD16B2F}
+	EndGlobalSection
+EndGlobal
