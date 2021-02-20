@@ -1,7 +1,7 @@
 # gayrimenkul-otomasyon-app
+<div style="float: left"><img src="https://github.com/emrecanAy/gayrimenkul-otomasyon-app/blob/master/Arayüz1.jpg" /></div> 
+<div style="float: right"><img src="https://github.com/emrecanAy/gayrimenkul-otomasyon-app/blob/master/Arayüz2.jpg" width="50"/></div> 
 
-<img src="https://github.com/emrecanAy/gayrimenkul-otomasyon-app/blob/master/Arayüz1.jpg" width="50"/>
-<img src="https://github.com/emrecanAy/gayrimenkul-otomasyon-app/blob/master/Arayüz2.jpg" width="50"/>
 
 Gayrimenkul ofislerinin müşteri takibi, kira takibi, gayrimenkul bilgisi vb. işlemlerini takip edebildiği bir otomasyon sistemidir.
 Her ne kadar spagetti kod olsa da şu an canlıda kullanılan ilk göz ağrım diyebilirim kendisine 😅
