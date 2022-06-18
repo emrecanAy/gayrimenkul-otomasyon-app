@@ -2,9 +2,9 @@
 
 <table>
 <tr><td>
-<div align="left"><img src="https://github.com/emrecanAy/gayrimenkul-otomasyon-app/blob/master/Arayüz1.jpg" /></div>
+<div align="left" float="left"><img src="https://github.com/emrecanAy/gayrimenkul-otomasyon-app/blob/master/Arayüz1.jpg" /></div>
 </td><td>
-<div align="right"><img src="https://github.com/emrecanAy/gayrimenkul-otomasyon-app/blob/master/Arayüz2.jpg" /></div>
+<div align="right" float="right"><img src="https://github.com/emrecanAy/gayrimenkul-otomasyon-app/blob/master/Arayüz2.jpg" /></div>
 </td></tr>
 </table>
 
